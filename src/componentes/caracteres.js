@@ -14,7 +14,7 @@ export default function Caracteres(props) {
     <div className="characters">
       <h1>Personajes</h1>
       <span className="back-home" onClick={resetCharacteres}>
-        Volver al Inicio
+        Volver al Inicio..
       </span>
       <div className="container-characters">
         {Caracteres.map((character, index) => (
@@ -55,7 +55,7 @@ export default function Caracteres(props) {
         ))}
       </div>
       <span className="back-home" onClick={resetCharacteres}>
-        Volver a Inicio
+        Volver a Inicio..
       </span>
     </div>
   );
